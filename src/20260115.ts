@@ -19,7 +19,8 @@ export function ex20260115() {
     63, 61, 62,
   ];
 
-  console.log(array2.indexOf(89));
+  console.log(array2.indexOf
+    (89));
 
   // 課題3
   // pop, push, shift, unshift を使って、array3 の要素を ["花子さん", "は", "背が低い", "わけでは無い"] に書き換え、コンソールに出力して下さい。
@@ -50,13 +51,13 @@ export function ex20260115() {
   for (let i = 99; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1)); // 0〜iまでのランダムな整数を生成
     const temp = array4[i]; //配列を入れ替える（swap）
-    array4[i] = array4[j]; 
-    array4[j] = temp; 
+    array4[i] = array4[j];
+    array4[j] = temp;
   }
   console.log(array4);
 
   //whileで書く場合
-  
+
   const array5: number[] = [];
   for (let i = 0; i < 100; i++) {
     array5.push(i);

@@ -44,7 +44,16 @@ const Aqua: Car = {
   year: 2011,
 }
 
+const pcar1: Car = {
+  brand: "Honda",
+  year: 2015,
+}
+
 console.log(Aqua);
+console.log(pcar1);
+
+
+
 
 // 4.3.1
 // 配列のスプレッド構文を使用して、2 つの配列を結合してください。

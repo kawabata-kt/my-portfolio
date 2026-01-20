@@ -35,7 +35,7 @@ export function ex5() {
     return sum;
   }
   console.log(total(1, 2, 3, 4, 5));
-  console.log(total(10, 20, 30)); 
+  console.log(total(10, 20, 30));
   // 8.3.2 型ガード関数を使って、引数が string の場合は大文字に、number の場合は 2 倍にする関数を作成してください。
   function isString(input: unknown): input is string {
     return typeof input === "string";

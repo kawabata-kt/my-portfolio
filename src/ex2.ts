@@ -65,5 +65,4 @@ export function ex2() {
     index++;
   }
   console.log(sum2);
-
 }
